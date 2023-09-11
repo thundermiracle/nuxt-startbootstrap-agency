@@ -26,7 +26,7 @@ defineProps<{
         </div>
         <div class="modal-body">
           <p v-if="subheader" class="item-intro text-muted">{{ subheader }}</p>
-          <img
+          <NuxtImg
             loading="lazy"
             decoding="async"
             class="img-fluid"

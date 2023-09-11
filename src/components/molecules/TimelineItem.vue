@@ -25,7 +25,7 @@ defineProps<{
           {{ imageContent }}
         </h4>
         <div v-else class="hw-100% relative">
-          <img
+          <NuxtImg
             loading="lazy"
             decoding="async"
             class="rounded-full"
