@@ -20,7 +20,7 @@ const toggleDetail = () => {
 <template>
   <div class="m-0 md:basis-1/3 basis-1/1 max-w-400px max-h-410px bg-white mb-30px">
     <div aria-hidden="true" class="relative cursor-pointer block" @click="toggleDetail">
-      <img
+      <NuxtImg
         loading="lazy"
         decoding="async"
         class="img-fluid"

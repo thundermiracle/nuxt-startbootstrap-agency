@@ -6,13 +6,19 @@ defineProps<{
   header: string;
   subheader: string;
   priority?: boolean;
-}>()
+}>();
 </script>
 
 <template>
   <div :class="`relative bg-dark text-white text-center ${className || ''}`">
     <div class="h-491px md:h-759px">
-      <img class="object-cover h-100% w-100%" loading="lazy" decoding="async" :src="imageSrc" :alt="imageAlt || header" />
+      <NuxtImg
+        preload
+        class="w-100% h-100%"
+        format="webp"
+        :src="imageSrc"
+        :alt="imageAlt || header"
+      />
     </div>
     <div class="overlay">
       <div class="container h-100% mx-auto flex items-center justify-center">

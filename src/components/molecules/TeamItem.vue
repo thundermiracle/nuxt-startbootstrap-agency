@@ -18,7 +18,7 @@ defineProps<{
   <div class="flex flex-col text-center items-center max-w-440px px-4 mb-50px">
     <div class="hw-239px rounded-img-border">
       <div class="hw-225px relative">
-        <img
+        <NuxtImg
           loading="lazy"
           decoding="async"
           fill

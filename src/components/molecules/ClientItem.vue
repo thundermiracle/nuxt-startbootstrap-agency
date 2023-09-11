@@ -9,7 +9,7 @@ defineProps<{
 <template>
   <a :href="href" target="_blank" rel="noopener noreferrer">
     <div class="h-75px w-300px relative">
-      <img
+      <NuxtImg
         loading="lazy"
         decoding="async"
         class="container mx-auto block mx-auto"
