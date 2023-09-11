@@ -30,6 +30,8 @@ defineProps<{
             decoding="async"
             class="rounded-full"
             format="webp"
+            width="200"
+            height="200"
             sizes="sm:80px md:170px"
             :src="imageSrc"
             :alt="imageAlt || header || subheader || ''"
