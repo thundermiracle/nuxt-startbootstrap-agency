@@ -13,7 +13,9 @@ defineProps<{
         loading="lazy"
         decoding="async"
         class="container mx-auto block mx-auto"
-        fill
+        width="300"
+        height="75"
+        format="webp"
         :src="src"
         :alt="alt"
       />

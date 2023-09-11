@@ -29,7 +29,8 @@ defineProps<{
             loading="lazy"
             decoding="async"
             class="rounded-full"
-            fill
+            format="webp"
+            sizes="sm:80px md:170px"
             :src="imageSrc"
             :alt="imageAlt || header || subheader || ''"
           />

@@ -24,8 +24,8 @@ const toggleDetail = () => {
         loading="lazy"
         decoding="async"
         class="img-fluid"
-        width="400"
-        height="300"
+        format="webp"
+        sizes="sm:303px md:400px"
         :src="imageSrc"
         :alt="imageAlt || header"
       />

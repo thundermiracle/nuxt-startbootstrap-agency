@@ -21,7 +21,9 @@ defineProps<{
         <NuxtImg
           loading="lazy"
           decoding="async"
-          fill
+          format="webp"
+          width="225"
+          height="225"
           class="rounded-full"
           :src="imageSrc"
           :alt="imageAlt || header"

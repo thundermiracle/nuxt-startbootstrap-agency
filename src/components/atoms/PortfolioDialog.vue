@@ -30,6 +30,7 @@ defineProps<{
             loading="lazy"
             decoding="async"
             class="img-fluid"
+            format="webp"
             width="500"
             height="400"
             :src="imageSrc"

@@ -14,7 +14,8 @@ defineProps<{
     <div class="h-491px md:h-759px">
       <NuxtImg
         preload
-        class="w-100% h-100%"
+        class="h-100% w-100%"
+        sizes="xs:320px sm:640px md:768px lg:1024px xl:1280px"
         format="webp"
         :src="imageSrc"
         :alt="imageAlt || header"
