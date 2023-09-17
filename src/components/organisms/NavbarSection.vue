@@ -51,11 +51,11 @@ const closeMenu = () => {
       </a>
       <button
         :class="togglerCss"
-        aria-label="Toggle navigation"
+        :aria-label="menuText?.trim()"
         type="button"
         @click="expanded = !expanded"
       >
-        {{ menuText }}
+        {{ menuText?.trim() || 'Menu' }}
         <div class="i-fa-bars" />
       </button>
       <div class="collapse navbar-collapse animate-fade-in" :class="`${expanded ? 'show' : ''}`">
